@@ -1,9 +1,11 @@
 ## Overview
-This repository presents an end-to-end unsupervised machine learning project focused on customer segmentation for a retail shopping mall. Using demographic and behavioral features—specifically **Annual Income** and **Spending Score**—the project applies and compares two fundamental clustering techniques: **K-Means Clustering** and **Agglomerative Hierarchical Clustering**.
+This repository presents an end-to-end unsupervised machine learning project focused on customer segmentation for a retail shopping mall. Using demographic and behavioral features. Specifically **Annual Income** and **Spending Score**
+
+The project applies and compares two fundamental clustering techniques: **K-Means Clustering** and **Agglomerative Hierarchical Clustering**.
 
 The primary objective is to group mall customers into distinct, actionable segments to enable targeted marketing strategies, personalized customer engagement, and optimized resource allocation.
 
----
+
 
 ## Key Features & Workflow
 1. **Data Preprocessing & Scaling:** Standardized feature distributions using `MinMaxScaler` to ensure equal distance weighting during cluster distance calculations.
@@ -17,7 +19,7 @@ The primary objective is to group mall customers into distinct, actionable segme
    - Generated scatter plots, centroid mappings, and cluster distribution bar charts.
    - Derived statistical mean profiles for each identified cluster segment (e.g., High Income / High Spenders vs. Low Income / High Spenders).
 
----
+
 
 ## Technical Stack
 * **Language:** Python 3.13+
@@ -25,7 +27,7 @@ The primary objective is to group mall customers into distinct, actionable segme
 * **Machine Learning:** Scikit-Learn (`KMeans`, `AgglomerativeClustering`, `silhouette_score`, `davies_bouldin_score`, `MinMaxScaler`)
 * **Data Visualization:** Matplotlib, Seaborn
 
----
+
 
 ## Key Results & Insights
 * **Optimal Clusters ($K$):** Identified $K = 5$ as the optimal number of clusters across both Elbow method inflection points and Silhouette score maximization (~0.555).
