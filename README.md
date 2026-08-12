@@ -1,5 +1,5 @@
 ## Overview
-This repository presents an end-to-end unsupervised machine learning project focused on customer segmentation for a retail shopping mall. Using demographic and behavioral features. Specifically **Annual Income** and **Spending Score**
+This repository presents an end to end unsupervised machine learning project focused on customer segmentation for a retail shopping mall. Using demographic and behavioral features. Specifically **Annual Income** and **Spending Score**
 
 The project applies and compares two fundamental clustering techniques: **K-Means Clustering** and **Agglomerative Hierarchical Clustering**.
 
